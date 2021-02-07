@@ -6,4 +6,4 @@ ensure tota_chud
 ensure tota_chud_dependencies
 ensure tota_seatbelt
 
-## Thanks for downloading! All rights reserved to MCNMATOT#2277
+## Thanks for downloading! All rights reserved to MCNMATOTA#2277
