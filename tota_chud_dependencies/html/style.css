@@ -1,0 +1,104 @@
+@font-face {
+    font-family: fuente;
+    src: url('/html/font/digital-7.ttf');
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+    min-width:100%;
+    text-align: bottom;
+    right: 1vh;
+    padding-left: 430px;
+}
+
+#todo {
+    position: absolute;
+    bottom: 5vh;
+}
+
+#velocidad {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 60px;
+    color: black;
+    height: 100px;
+    margin-top: 920px;
+    background-color: rgba(231, 227, 227, 0.884);
+    height: 70px;
+    width: 200px;
+    margin-left: 838px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.km {
+    margin-left: 985px;
+    top: 955px;
+    font-family: fuente;
+}
+
+#fuel {
+    background-color: rgba(255, 255, 255, 0.979);
+    margin-top: 5px;
+    margin-left: 854.6px;
+    width: 10%;
+    color: rgba(0, 0, 0, 0.0);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+
+}
+
+.cont {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 40px;
+    margin-left: 917px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+}
+
+#rpm {
+    
+    font-family: fuente;
+    text-align: center;    
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 40px;
+    margin-left: 860px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+}
+
+#vida {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 14.8px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 40px;
+    margin-left: 974px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+@keyframes anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#todo {
+    animation-name: anim;
+    animation-duration: 3s;
+}
+
+
