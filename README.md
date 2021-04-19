@@ -3,7 +3,6 @@
 ## server.cfg
 
 ensure tota_chud
-ensure tota_chud_dependencies
-ensure tota_seatbelt
+## ensure tota_seatbelt ## This is included, but not shown in preview. If you wanna use it, just started it on the .cfg
 
 ## Thanks for downloading! All rights reserved to MCNMATOTA#2277
