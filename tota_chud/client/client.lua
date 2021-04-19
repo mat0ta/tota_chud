@@ -30,7 +30,12 @@ Citizen.CreateThread(function()
 			streetHash2 = GetStreetNameFromHashKey(var2)
             local vehBody = (GetVehicleEngineHealth(veh) /10)
             local vueltas = GetVehicleCurrentRpm(veh)
-            local revoluciones = math.ceil(vueltas * 10000 - 2001, 2)
+            local revoluciones
+	    if IsVehicleEngineOn(veh) then
+            revoluciones = math.ceil(vueltas * 10000 - 2001, 2)
+            else
+            revoluciones = 0
+            end
             SendNUIMessage({
                 display = true,
                 street = streetHash1 .. " | " ..  zoneLabel,
