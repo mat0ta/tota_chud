@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+.principal {
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    margin: 0 auto;
+    z-index: 20;
+}
+
+.linea {
+    position: relative;
+    width: 10%;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 854.6px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 45px;
+    max-width: 600px;
+    transition: 0.2s ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: -1;
+}
+
+.fuel {
+    position: absolute;
+    display: flex;
+    margin-left: 35em;
+    width: 13%;
+    height: 45%;
+    top: 10%;
+    left: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    justify-content: center;
+}
+
+.engine {
+    position: absolute;
+    display: flex;
+    margin-left: 35em;
+    width: 5.5%;
+    height: 45%;
+    bottom: 35px;
+    left: -450px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    border: solid rgb(103, 235, 98) 3.5px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes blinking {
+    50% {
+      border-color: #ffd930;
+    }
+}
+
+@keyframes fastblinking {
+    70% {
+      border-color: #ff0000;
+    }
+}
+
+.totalkm {
+    position: absolute;
+    display: flex;
+    width: 13%;
+    height: 45%;
+    top: 10%;
+    left: 39px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 35em;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    justify-content: center;
+}
+
+.textokm {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;  
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.kmh{
+    font-weight: 100;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.calle {
+    width:700px;
+    height:20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 7px;
+}
+
+.street {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, 5px);
+}
